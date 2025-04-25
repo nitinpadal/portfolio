@@ -7,6 +7,7 @@ interface Education {
   degree: string;
   period: string;
   score: string;
+  logo: string;
 }
 
 const EducationSection: React.FC = () => {
@@ -16,18 +17,21 @@ const EducationSection: React.FC = () => {
       degree: 'BTech in Computer Science and Engineering',
       period: '2022 - Present',
       score: 'CGPA: 7.81',
+      logo: '/lpu.png',
     },
     {
-      institution: 'Sri Chaitanya Techno School',
+      institution: 'Sri Chaitanya Techno School, visakhapatnam',
       degree: 'Intermediate',
       period: '2018 - 2020',
       score: 'Percentage: 81.8%',
+      logo: '/sri-chaitanya.png',
     },
     {
-      institution: 'UG Govt High School, Pukali',
+      institution: 'UG Govt High School, koraput',
       degree: 'Matriculation',
       period: '2016 - 2018',
       score: 'Percentage: 85%',
+      logo: '/ug-govt-school.jpg',
     },
   ];
 
@@ -57,7 +61,16 @@ const EducationSection: React.FC = () => {
                     {/* Content */}
                     <div className="w-full md:w-1/2 p-0 md:p-6">
                       <div className="bg-gray-50 dark:bg-dark-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 ml-0 md:ml-6">
-                        <h3 className="text-xl font-semibold mb-2 text-dark-900 dark:text-white">{education.institution}</h3>
+                        <div className="flex items-center mb-2">
+                          <img 
+                            src={education.logo} 
+                            alt={`${education.institution} logo`} 
+                            className="w-12 h-12 mr-3 object-contain rounded-md" 
+                          />
+                          <h3 className="text-xl font-semibold text-dark-900 dark:text-white">
+                            {education.institution}
+                          </h3>
+                        </div>
                         <p className="text-dark-700 dark:text-gray-300 mb-2">{education.degree}</p>
                         <div className="flex items-center text-dark-600 dark:text-gray-400 text-sm mb-2">
                           <Calendar size={16} className="mr-2" />

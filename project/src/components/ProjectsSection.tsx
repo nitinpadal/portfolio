@@ -17,11 +17,11 @@ const ProjectsSection: React.FC = () => {
       title: 'Online Learning Platform',
       timeline: 'Feb 2025 - Apr 2025',
       contributions: [
-        'Built a full-stack learning platform with React, TypeScript, Vite, and Supabase',
-        'Implemented RLS-based auth and role-specific dashboards',
-        'Dockerized the app for uniform local and production setups',
-        'Set up CI/CD with Jenkins and GitHub for automated deployment'
-      ],      
+        'Built a full-stack learning platform using React, TypeScript, Vite, and Supabase.',
+        'Implemented role-specific dashboards and RLS-based authentication.',
+        'Dockerized the app and set up CI/CD with Jenkins for automated deployment.'
+      ],
+           
       
       techStack: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Supabase', 'Docker', 'Jenkins', 'Nodejs'],
       githubLink: 'https://github.com/nitinpadal/online-learning-platform',
@@ -31,11 +31,11 @@ const ProjectsSection: React.FC = () => {
       title: 'Automated and Performance Testing for E-Commerce Website',
       timeline: 'Jan 2024 - May 2024',
       contributions: [
-        'Developed comprehensive test automation framework using Selenium WebDriver',
-        'Implemented parallel test execution reducing test time by 60%',
-        'Created JMeter scripts for load testing with detailed performance reports',
-        'Automated API testing with Postman for RESTful endpoints'
+        'Designed a page object model framework for an e-commerce application',
+        'Implemented data-driven testing with Excel integration',
+        'Set up a CI/CD pipeline for continuous testing with Jenkins'
       ],
+      
       techStack: ['Java', 'Selenium WebDriver', 'TestNG', 'JMeter', 'Postman', 'Jenkins'],
       githubLink: 'https://github.com/nitinpadal/ecommerce-testing',
       image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
@@ -44,11 +44,10 @@ const ProjectsSection: React.FC = () => {
       title: 'E-Commerce Workflow Automation with Selenium',
       timeline: 'Oct 2023 - Dec 2023',
       contributions: [
-        'Designed page object model framework for an e-commerce application',
-        'Implemented data-driven testing using Excel integration',
-        'Created comprehensive test reports with ExtentReports',
-        'Set up CI/CD pipeline with Jenkins for continuous testing'
-      ],
+        'Developed a full-stack application to manage student records',
+        'Implemented RESTful APIs using Spring Boot for data operations',
+        'Designed and implemented the MySQL database schema'
+      ],      
       techStack: ['Java', 'Selenium', 'Maven', 'Jenkins', 'ExtentReports', 'TestNG'],
       githubLink: 'https://github.com/nitinpadal/selenium-automation',
       image: 'https://images.pexels.com/photos/7887800/pexels-photo-7887800.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
@@ -59,7 +58,6 @@ const ProjectsSection: React.FC = () => {
       contributions: [
         'Developed a full-stack application for managing student records',
         'Implemented RESTful APIs using Spring Boot for data operations',
-        'Created responsive UI with modern JavaScript framework',
         'Designed and implemented MySQL database schema'
       ],
       techStack: ['Java', 'Spring Boot', 'MySQL', 'HTML/CSS', 'JavaScript', 'Git'],
